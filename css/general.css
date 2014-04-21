@@ -144,19 +144,14 @@ footer {
     padding: 0;
 }
 
-
 .socialmedia li:last-child {
     margin: 0;
 }
-
 
 .socialmedia a,
 .socialmedia a:link,
 .socialmedia a:visited {
     display: block;
-    background-size: 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
     margin: 0;
     padding: 100% 0 0;
 }
@@ -187,10 +182,10 @@ footer p {
 .productheaders li {
     float: left;
     width: 45%;
-    margin: 0 10% 1.5rem 0;
+    margin: 0 10% 0 0;
     padding: 1.5rem 10%;
     text-align: center;
-    background-color: #99ff99 ;
+    background-color: #99ff99;
     font-weight: bold;
     font-size: 1rem;
 }
@@ -199,16 +194,26 @@ footer p {
     margin: 0;
 }
 
-.productheaders a,
-.productheaders a:link,
-.productheaders a:visited {
-    display: block;
-    background-size: 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-color: yellow; /* Visual Aid */
+.products {
+    margin: 0 5%;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.products li {
+    float: left;
+    width: 45%;
+    margin: 0 10% 0 0;
+    padding: 1.5rem 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #ff3399;
+}
+
+.products li:nth-child(even) {
     margin: 0;
-    padding: 100% 0 0; /* height of image ÷ by width = % */
 }
 
 .contact {
