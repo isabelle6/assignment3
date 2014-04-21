@@ -35,13 +35,13 @@ body {
 header {
     overflow: hidden;
     background-color: #339999;
-    position:  fixed;
+    position: fixed;
     width: 100%;
   
 }
 
 .logo {
-    width: 5rem;
+    width: 23rem;
     height: auto;
     float: left;
     margin: 1.5rem 5%;
@@ -55,7 +55,7 @@ header {
     margin: 0;
     padding: 0;
     background-color: black;
-    text-align:center;
+    text-align: center;
 }
 
 .nav-top li {
@@ -81,9 +81,10 @@ header {
 
 .billboard {
     overflow: hidden;
-    background-color: red;
+    background-image: url(../images/graffiti2.jpg);
     background-position: center bottom;
-    background-size: 75rem;
+    background-color: #339999;
+    background-size: auto;
     background-repeat:  no-repeat;
     padding: 11rem 0 0;
 }
@@ -91,23 +92,21 @@ header {
 h1 {
     font-family: 'Sonsie One', cursive, sans-serif;
     font-size: 2rem;
-    margin: 4rem 0;
-    padding: 0;
+    padding: 0 5%;
     overflow: hidden;
     background-color: rgba(255, 255, 255, .8);
 }
 
 h2 {
     text-align: center;
-    padding: 11rem 0 0 0;
-    color: #ff3399;
+    color: #339999;
     font-size: 2rem
 }
 
 h3 {
     color: #339999;
-    text-align: center;
-    font-size: 1.5rem
+    font-size: 1.25rem;
+    margin: 1.5rem 5%;
 }
 
 p {
@@ -120,13 +119,9 @@ figure a {
 }
 
 figure figcaption {
-    color: red;
+    color: #ff3399;
     font-weight: bold;
     padding: 1rem 0 0 ;
-}
-
-footer img {
-    height: 3.5rem;
 }
 
 footer {
@@ -134,8 +129,50 @@ footer {
     background-color: #339999;
 }
 
+.socialmedia {
+    margin: 1.5rem 5%;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
 
+.socialmedia li {
+    height: 4rem;
+    width: 4rem;
+    float: left;
+    margin: 0 5%;
+    padding: 0;
+}
 
+/*
+.socialmedia li:nth-child(even) {
+    margin: 0;
+}
+*/
 
+.socialmedia a,
+.socialmedia a:link,
+.socialmedia a:visited {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 100% 0 0;
+}
 
+.facebook {
+    background-image: url(../images/facebook.svg);
+}
 
+.twitter {
+    background-image: url(../images/twitter.svg);
+}
+
+.instagram {
+    background-image: url(../images/instagram.svg);
+}
+
+footer p {
+    text-align: center;
+}
