@@ -131,20 +131,20 @@ footer {
 }
 
 .socialmedia {
-    margin: 1.5rem 5%;
-    padding: 0;
+    margin: 0;
+    padding: 1.5rem 10% 0;
     overflow: hidden;
     list-style: none;
 }
 
 .socialmedia li {
-    width: 25%;
     float: left;
-    margin: 0 5%;
+    width: 25%;
+    margin: 0 12.5% 1.5rem 0;
     padding: 0;
 }
 
-.socialmedia li:last-child {
+.socialmedia li:nth-child(3) {
     margin: 0;
 }
 
@@ -152,6 +152,8 @@ footer {
 .socialmedia a:link,
 .socialmedia a:visited {
     display: block;
+    background-size: 100%;
+    background-position: center top;
     margin: 0;
     padding: 100% 0 0;
 }
@@ -211,6 +213,8 @@ footer p {
     font-size: 1rem;
     color: #ff3399;
 }
+
+.products p {}
 
 .products li:nth-child(even) {
     margin: 0;
