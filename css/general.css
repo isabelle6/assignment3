@@ -81,7 +81,7 @@ header {
 
 .billboard {
     overflow: hidden;
-    background-image: url(../images/graffiti2.jpg);
+    background-image: url(../images/graffiti.jpg);
     background-position: center bottom;
     background-color: #339999;
     background-size: auto;
@@ -104,13 +104,14 @@ h2 {
 }
 
 h3 {
-    color: #339999;
+    color: #006666;
     font-size: 1.25rem;
     margin: 1.5rem 5%;
 }
 
 p {
     font-size: 1rem;
+    line-height: 1.5rem;
     padding: 0 5%;
 }
 
@@ -137,18 +138,17 @@ footer {
 }
 
 .socialmedia li {
-    height: 4rem;
-    width: 4rem;
+    width: 25%;
     float: left;
     margin: 0 5%;
     padding: 0;
 }
 
-/*
-.socialmedia li:nth-child(even) {
+
+.socialmedia li:last-child {
     margin: 0;
 }
-*/
+
 
 .socialmedia a,
 .socialmedia a:link,
@@ -175,4 +175,46 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+.productheaders {
+    margin: 0 5%;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.productheaders li {
+    float: left;
+    width: 45%;
+    margin: 0 10% 1.5rem 0;
+    padding: 1.5rem 10%;
+    text-align: center;
+    background-color: #99ff99 ;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.productheaders li:nth-child(even) {
+    margin: 0;
+}
+
+.productheaders a,
+.productheaders a:link,
+.productheaders a:visited {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: yellow; /* Visual Aid */
+    margin: 0;
+    padding: 100% 0 0; /* height of image ÷ by width = % */
+}
+
+.contact {
+    list-style: none;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 0;
+    line-height: 2rem;
 }
